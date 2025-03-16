@@ -1,8 +1,8 @@
 
 # 🏦 Consultoria Financeira 
-<div align="center">
+
 ![image](https://github.com/user-attachments/assets/722503b8-0cec-4e6a-9a41-7700cee29624)
-</div>
+
 
 ## 📋 Sobre o Projeto
 
@@ -10,7 +10,7 @@ Uma landing page moderna, responsiva e otimizada para SEO, desenvolvida para uma
 
 ### ✨ Demonstração
 
-[Ver demonstração ao vivo](https://financial-consultant-phi.vercel.app/#beneficios)
+[Projeto em execução](https://financial-consultant-phi.vercel.app/#beneficios)
 
 ## 🚀 Recursos e Funcionalidades
 
