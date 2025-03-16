@@ -82,6 +82,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/png" href="/dollar.png" sizes="any" />
         <link rel="apple-touch-icon" type="image/png" href="/dollar.png" />
+        <meta name="google-site-verification" content="9eCg0sBmScwH139o1Qp4KlkvKrULwLLFNsER7Zhe4N8" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
