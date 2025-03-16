@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/admin/", "/privado/"],
     },
-    sitemap: "https://consultoriafinanceira.com.br/sitemap.xml",
+    sitemap: "https://financial-consultant-phi.vercel.app/sitemap.xml",
   }
 }
 

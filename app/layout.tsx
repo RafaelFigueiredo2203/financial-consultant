@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://consultoriafinanceira.com.br"),
+  metadataBase: new URL("https://financial-consultant-phi.vercel.app/"),
   alternates: {
     canonical: "/",
     languages: {
@@ -32,11 +32,11 @@ export const metadata: Metadata = {
     title: "Consultoria Financeira | Empréstimos e Serviços Financeiros",
     description:
       "Oferecemos empréstimos pessoais, financiamentos, renegociação de dívidas e consultoria financeira personalizada com aprovação rápida e sem burocracia.",
-    url: "https://consultoriafinanceira.com.br",
+    url: "https://financial-consultant-phi.vercel.app/",
     siteName: "Consultoria Financeira",
     images: [
       {
-        url: "https://consultoriafinanceira.com.br/og-image.jpg",
+        url: "https://financial-consultant-phi.vercel.app//og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Consultoria Financeira - Soluções financeiras personalizadas",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: "Consultoria Financeira | Empréstimos e Serviços Financeiros",
     description:
       "Oferecemos empréstimos pessoais, financiamentos, renegociação de dívidas e consultoria financeira personalizada com aprovação rápida e sem burocracia.",
-    images: ["https://consultoriafinanceira.com.br/twitter-image.jpg"],
+    images: ["https://financial-consultant-phi.vercel.app//twitter-image.jpg"],
     creator: "@consultoriafinanceira",
   },
   robots: {
@@ -97,8 +97,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "FinancialService",
               name: "Consultoria Financeira",
-              url: "https://consultoriafinanceira.com.br",
-              logo: "https://consultoriafinanceira.com.br/logo.png",
+              url: "https://financial-consultant-phi.vercel.app/",
+              logo: "https://financial-consultant-phi.vercel.app/dollar.png",
               description:
                 "Oferecemos empréstimos pessoais, financiamentos, renegociação de dívidas e consultoria financeira personalizada.",
               address: {
@@ -110,7 +110,7 @@ export default function RootLayout({
                 addressCountry: "BR",
               },
               telephone: "+5514981229313",
-              email: "contato@consultoriafinanceira.com.br",
+              email: "raianaketellindesousa@gmail.com",
               sameAs: [
                 "https://www.facebook.com/consultoriafinanceira",
                 "https://www.instagram.com/consultoriafinanceira",

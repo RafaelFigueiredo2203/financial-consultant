@@ -10,8 +10,8 @@ export function LocalBusinessSchema() {
           "@context": "https://schema.org",
           "@type": "FinancialService",
           name: "Consultoria Financeira",
-          url: "https://consultoriafinanceira.com.br",
-          logo: "https://consultoriafinanceira.com.br/logo.png",
+          url: "https://financial-consultant-phi.vercel.app/",
+          logo: "https://financial-consultant-phi.vercel.app/dollar.png",
           description:
             "Oferecemos empréstimos pessoais, financiamentos, renegociação de dívidas e consultoria financeira personalizada.",
           address: {
@@ -23,7 +23,7 @@ export function LocalBusinessSchema() {
             addressCountry: "BR",
           },
           telephone: "+551199999999",
-          email: "contato@consultoriafinanceira.com.br",
+          email: "raianaketellindesousa@gmail.com",
           sameAs: [
             "https://www.facebook.com/consultoriafinanceira",
             "https://www.instagram.com/consultoriafinanceira",
