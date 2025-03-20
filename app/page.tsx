@@ -1,5 +1,6 @@
 import Benefits from "@/components/benefits"
 import Faq from "@/components/faq"
+import { FinanceEducation } from "@/components/finance-education"
 import Footer from "@/components/footer"
 import Hero from "@/components/hero"
 import Testimonials from "@/components/testimonials"
@@ -15,11 +16,13 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
+
   return (
     <>
       <main className="flex min-h-screen flex-col">
         <Hero />
         <Benefits />
+        <FinanceEducation/>
         <Testimonials />
         <Faq />
         <Footer />

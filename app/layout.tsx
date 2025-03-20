@@ -80,9 +80,13 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/dollar.png" />
         <link rel="icon" type="image/png" href="/dollar.png" sizes="any" />
         <link rel="apple-touch-icon" type="image/png" href="/dollar.png" />
         <meta name="google-site-verification" content="9eCg0sBmScwH139o1Qp4KlkvKrULwLLFNsER7Zhe4N8" />
+        <meta name="title" content="Consultoria Financeira | Soluções financeiras personalizadas" />
+        <meta name="description" content="A melhor consultoria financeira para empréstimos, financiamentos e renegociação de dívidas." />
+        <meta property="og:image" content="/logo.png" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
@@ -163,3 +167,4 @@ export default function RootLayout({
 
 
 import './globals.css'
+

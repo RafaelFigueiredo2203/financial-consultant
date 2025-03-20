@@ -1,129 +1,139 @@
-import Script from "next/script"
+import Script from 'next/script'
 
-export function LocalBusinessSchema() {
+export function EnhancedFinancialServiceSchema() {
   return (
     <Script
-      id="local-business-schema"
+      id="financial-service-schema"
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "FinancialService",
-          name: "Consultoria Financeira",
-          url: "https://financial-consultant-phi.vercel.app/",
-          logo: "https://financial-consultant-phi.vercel.app/dollar.png",
-          description:
-            "Oferecemos empréstimos pessoais, financiamentos, renegociação de dívidas e consultoria financeira personalizada.",
-          address: {
-            "@type": "PostalAddress",
-            streetAddress: "Av. Paulista, 1000",
-            addressLocality: "São Paulo",
-            addressRegion: "SP",
-            postalCode: "01310-100",
-            addressCountry: "BR",
+          "name": "Consultoria Financeira",
+          "url": "https://consultoriafinanceira.com.br",
+          "logo": "https://consultoriafinanceira.com.br/logo.png",
+          "description": "Oferecemos soluções financeiras, como empréstimos FGTS para negativados, crédito consignado digital, microcrédito, refinanciamento, financiamento veicular e muito mais, com as melhores condições do mercado.",
+          "slogan": "Soluções financeiras personalizadas para transformar sua vida",
+          "knowsAbout": [
+            "Empréstimos Pessoais", 
+            "Financiamento Imobiliário", 
+            "Renegociação de Dívidas", 
+            "Crédito para Negativados",
+            "Portabilidade de Dívidas",
+            "Educação Financeira",
+            "Empréstimo Consignado",
+            "Microcrédito",
+            "Refinanciamento",
+            "Empréstimo FGTS",
+            "Financiamento Veicular",
+            "Empréstimo Online Sem Burocracia"
+          ],
+          "areaServed": {
+            "@type": "State",
+            "name": "São Paulo"
           },
-          telephone: "+551199999999",
-          email: "raianaketellindesousa@gmail.com",
-          sameAs: [
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Paulista, 1000",
+            "addressLocality": "São Paulo",
+            "addressRegion": "SP",
+            "postalCode": "01310-100",
+            "addressCountry": "BR"
+          },
+          "telephone": "+551199999999",
+          "email": "contato@consultoriafinanceira.com.br",
+          "sameAs": [
             "https://www.facebook.com/consultoriafinanceira",
             "https://www.instagram.com/consultoriafinanceira",
-            "https://www.linkedin.com/company/consultoriafinanceira",
+            "https://www.linkedin.com/company/consultoriafinanceira"
           ],
-          openingHours: "Mo,Tu,We,Th,Fr 09:00-18:00",
-          hasOfferCatalog: {
+          "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+          "hasOfferCatalog": {
             "@type": "OfferCatalog",
-            name: "Serviços Financeiros",
-            itemListElement: [
+            "name": "Serviços Financeiros",
+            "itemListElement": [
               {
                 "@type": "Offer",
-                itemOffered: {
+                "itemOffered": {
                   "@type": "Service",
-                  name: "Empréstimo Pessoal",
-                },
+                  "name": "Empréstimo FGTS para Negativados",
+                  "description": "Utilize seu saldo do FGTS para obter um empréstimo com taxas reduzidas, mesmo se estiver negativado."
+                }
               },
               {
                 "@type": "Offer",
-                itemOffered: {
+                "itemOffered": {
                   "@type": "Service",
-                  name: "Financiamento",
-                },
+                  "name": "Financiamento Veicular",
+                  "description": "Conquiste seu carro próprio com financiamento acessível e sem burocracia."
+                }
               },
               {
                 "@type": "Offer",
-                itemOffered: {
+                "itemOffered": {
                   "@type": "Service",
-                  name: "Renegociação de Dívidas",
-                },
-              },
-              {
-                "@type": "Offer",
-                itemOffered: {
-                  "@type": "Service",
-                  name: "Consultoria Financeira",
-                },
-              },
-            ],
+                  "name": "Microcrédito para Pequenos Negócios",
+                  "description": "Crédito rápido para MEIs e pequenos empresários alavancarem seus negócios."
+                }
+              }
+            ]
           },
-        }),
-      }}
-    />
-  )
-}
-
-export function FAQSchema() {
-  return (
-    <Script
-      id="faq-schema"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: [
+          "review": [
             {
-              "@type": "Question",
-              name: "Quais documentos são necessários para solicitar um empréstimo?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Para solicitar um empréstimo, você precisará de documento de identidade (RG/CNH), CPF, comprovante de residência atualizado e comprovante de renda. Dependendo da modalidade, podem ser solicitados documentos adicionais.",
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
               },
+              "author": {
+                "@type": "Person",
+                "name": "Ana Silva"
+              },
+              "reviewBody": "Consegui um empréstimo para expandir meu negócio com taxas ótimas. Atendimento excelente!"
             },
             {
-              "@type": "Question",
-              name: "Quanto tempo leva para a aprovação do crédito?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Nosso processo de análise é rápido e eficiente. Em geral, a aprovação ocorre em até 24 horas após o envio de toda a documentação necessária.",
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
               },
-            },
-            {
-              "@type": "Question",
-              name: "Quais são as taxas de juros praticadas?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "As taxas de juros variam de acordo com a modalidade de crédito, valor solicitado e perfil do cliente. Trabalhamos para oferecer as melhores condições do mercado, com taxas a partir de 1,99% ao mês.",
+              "author": {
+                "@type": "Person",
+                "name": "Carlos Oliveira"
               },
-            },
-            {
-              "@type": "Question",
-              name: "É possível renegociar dívidas existentes?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Sim, oferecemos serviços de renegociação de dívidas. Nossa equipe especializada irá analisar sua situação e propor as melhores alternativas para reorganizar suas finanças.",
-              },
-            },
-            {
-              "@type": "Question",
-              name: "Trabalham com empréstimo para negativados?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text: "Sim, temos opções de crédito para pessoas com restrições no nome. Cada caso é analisado individualmente para encontrarmos a melhor solução.",
-              },
-            },
+              "reviewBody": "Renegociei minhas dívidas e organizei minha vida financeira. Recomendo muito!"
+            }
           ],
-        }),
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "450"
+          },
+          "mainEntity": {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Quem pode solicitar um empréstimo FGTS para negativados?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Qualquer trabalhador que possua saldo disponível no FGTS pode solicitar esse empréstimo, mesmo com restrição no nome."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Quais as vantagens do microcrédito?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "O microcrédito oferece valores menores, com taxas reduzidas e liberação rápida para pequenos empreendedores."
+                }
+              }
+            ]
+          }
+        })
       }}
     />
   )
 }
-
