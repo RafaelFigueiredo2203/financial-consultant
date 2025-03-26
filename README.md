@@ -1,36 +1,33 @@
-Tailwind CSS vem ganhando popularidade, mas não é isento de debates acalorados entre desenvolvedores.
------------------------------------------------------------------------------------------------------
+# 🏦 Consultoria Financeira 
 
-Será que ele é realmente tudo isso? Vamos explorar os prós e contras e desmistificar o que é, de fato, o Tailwind CSS!
-----------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/user-attachments/assets/722503b8-0cec-4e6a-9a41-7700cee29624)
 
-✅ **Prós do Tailwind CSS**  
-Produtividade Elevada  
-Com suas classes utilitárias, você constrói estilos direto no HTML, economizando tempo e mantendo o foco na interface.
 
-Escalabilidade e Manutenção  
-Tailwind é flexível, e as classes utilitárias são padronizadas, tornando a escalabilidade mais fácil em projetos maiores.
+## 📋 Sobre o Projeto
 
-Customização Total  
-Ele permite uma configuração completa. Personalize desde paletas de cores até espaçamentos específicos para o seu projeto.
+Uma landing page moderna, responsiva e otimizada para SEO, desenvolvida para uma consultoria financeira que oferece empréstimos e serviços financeiros. O design é inspirado em fintechs modernas como Nubank e Creditas, com uma interface colorida e vibrante que transmite confiança e profissionalismo.
 
-Menos CSS "Sobrecarga"  
-Esqueça a folha de estilos extensa. O Tailwind gera apenas o CSS que você realmente utiliza, otimizando o tamanho do arquivo final.
+### ✨ Demonstração
 
-❌ **Contras do Tailwind CSS**  
-HTML Poluído  
-O uso intensivo de classes utilitárias faz com que o HTML fique carregado, o que pode dificultar a legibilidade do código.
+[Projeto em execução](https://financial-consultant-phi.vercel.app/#beneficios)
 
-Curva de Aprendizado  
-Para quem está acostumado a frameworks mais tradicionais, entender e aplicar a lógica do Tailwind pode demorar.
+## 🚀 Recursos e Funcionalidades
 
-Configuração Extensa  
-A customização é um ponto positivo, mas configurações complexas podem complicar a implementação, principalmente em projetos pequenos.
+- ✅ **Design Moderno e Responsivo** - Adaptado para desktop, tablet e dispositivos móveis
+- ✅ **Tema Claro/Escuro** - Suporte completo a modo escuro com alternância de temas
+- ✅ **Formulário de Contato WhatsApp** - Integração direta com WhatsApp sem necessidade de backend
+- ✅ **Animações Suaves** - Animações sutis com Framer Motion para melhorar a experiência do usuário
+- ✅ **SEO Otimizado** - Implementação completa de metadados, sitemap, robots.txt e dados estruturados
+- ✅ **Acessibilidade** - Seguindo as melhores práticas de acessibilidade WCAG
+- ✅ **Performance Otimizada** - Carregamento rápido e eficiente usando SSG (Static Site Generation)
 
-Não é Ideal para Todos os Projetos  
-Em projetos que exigem uma abordagem de estilo mais dinâmica ou menos rígida, o Tailwind pode acabar sendo limitador.
+## 🛠️ Tecnologias Utilizadas
 
-**Então, Tailwind é Para Você?**  
-Para quem prioriza produtividade e consistência, Tailwind é uma mão na roda! Mas se você gosta de um CSS mais artesanal e separado, pode não gostar tanto do estilo utilitário dele.
+- **Next.js 14** - Framework React com App Router
+- **Next API** - Para comunicação com back-end
+- **Tailwind CSS** - Framework CSS utilitário
+- **TypeScript** - Tipagem estática para JavaScript
+- **Framer Motion** - Biblioteca de animações
+- **Radix UI** - Componentes acessíveis e sem estilo
+- **Lucide Icons** - Biblioteca de ícones
 
-E você, já usou Tailwind?
